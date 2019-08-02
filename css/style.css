@@ -243,7 +243,6 @@ input{
     }
 }
 
-
 @media(min-width: 764px) and (max-width:991px){
     .description {
 
@@ -331,4 +330,57 @@ input{
         margin-left: 5%;
         margin-right: 5%;
     }
-}   
+} 
+
+@media(min-width: 641px) and (max-width:767px){
+    #box-profile .img-profile {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 300px;
+        float: left;
+        top: 20px;
+        margin-left: 15px;
+    }
+    .description {
+        position: relative;
+        width: 300px;
+        display: inline-block;
+        float: left;
+        top: 23px;
+        border-right: 1px solid #efefef;
+    }
+    .description h1 {
+        font-size: 29px;
+        margin-bottom: 3px;
+    }
+    *, body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .description .button {
+        margin-top: 22px;
+    }
+    .button {
+        position: relative;
+        padding: 9px 13px 9px 13px;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 4px;
+        border-radius: 9px;
+    }
+    .information {
+        position: relative;
+        display: inline-block;
+        float: left;
+        font-family: 'Helvetica', sans-serif;
+        top: 47px;
+        margin-left: -101px;
+    }
+    .information .data {
+        display: block;
+        width: 100%;
+        height: 23px;
+    }
+}
